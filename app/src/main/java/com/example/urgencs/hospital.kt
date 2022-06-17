@@ -10,22 +10,22 @@ import androidx.appcompat.widget.AppCompatButton
 
 
 
-   // class hospital: AppCompatActivity() {
+   class hospital: AppCompatActivity() {
 
-       // override fun onCreate(savedInstanceState: Bundle?) {
-      //      super.onCreate(savedInstanceState)
-            //   setContentView(R.layout.hospital)
+    override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
+            setContentView(R.layout.hospital)
             //info
-            //    val txt_nombre=findViewById<EditText>(R.id.text_nombre)
-            //   val txt_codigo=findViewById<EditText>(R.id.text_codigo)
-            //  val txt_accidente=findViewById<EditText>(R.id.text_accidente)
+            val txt_nombre=findViewById<EditText>(R.id.txt_nombre)
+          val txt_codigo=findViewById<EditText>(R.id.txt_codigo)
+         val txt_accidente=findViewById<EditText>(R.id.txt_accidente)
 
 
-            //  boton_agregar.setOnClickListener {
-        //    try {
-         //       val codigo = txt_codigo.text.toString().toInt()
-            //    val nombre = txt_nombre.text.toString()
-         //       val accidente = txt_autor.text.toString()
+        //    boton_agregar.setOnClickListener {
+        //try {
+          // val codigo = txt_codigo.text.toString().toInt()
+        //val nombre = txt_nombre.text.toString()
+       // val accidente = txt_autor.text.toString()
 
 
         //    }
