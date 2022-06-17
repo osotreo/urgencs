@@ -54,7 +54,7 @@
             android:inputType="textPersonName" />
 
         <Button
-            android:id="@+id/bn_prueba_hospital"
+            android:id="@+id/bn_prueba"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Button" />
