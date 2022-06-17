@@ -6,19 +6,78 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <LinearLayout
+        android:id="@+id/view_main"
+        android:layout_width="389dp"
+        android:layout_height="715dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621">
 
-    <Button
-        android:id="bn_hospital_main"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+
+        <TextView
+            android:id="@+id/view_titulo_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplicación Urgencias" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bn_ambulancia_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones_redondeados"
+            android:text="Nueva Ambulancia" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bn_hospital_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones_redondeados"
+            android:text="Agregar Hospital" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bn_accidentado_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones_redondeados"
+            android:text="Agregar Accidentado" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bn_lista_hospitales_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones_redondeados"
+            android:text="Motrar lista de hospitales" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bn_lista_accidentados_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones_redondeados"
+            android:text="Mostrar lista de accidentados" />
+    </LinearLayout>
+
+   
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

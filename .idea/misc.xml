@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/asuspes/AndroidStudioProjects/urgencs/app/src/main/res/layout/activity_main.xml" value="0.1" />
+
+        <entry key="..\:/Users/andre/AndroidStudioProjects/urgencs/app/src/main/res/drawable/botones_redondeados.xml" value="0.1885" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/urgencs/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1885" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/urgencs/app/src/main/res/layout/activity_hospital.xml" value="0.22" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/urgencs/app/src/main/res/layout/activity_main.xml" value="0.33" />
+
+       
+
       </map>
     </option>
   </component>
