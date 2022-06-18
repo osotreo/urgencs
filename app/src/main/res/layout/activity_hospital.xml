@@ -53,10 +53,5 @@
             android:background="@drawable/botones_redondeados"
             android:inputType="textPersonName" />
 
-        <Button
-            android:id="@+id/bn_prueba"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
